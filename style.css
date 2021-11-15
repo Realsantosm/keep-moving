@@ -1,4 +1,32 @@
 
 body {
     padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+    background-color: lightgray;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    padding: .8rem;
+    text-align: center;
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+.footer__ul li {
+    list-style-type: none;
+    display:inline;
+    margin: auto;
+   padding-right: 20px;
+}
+ .footer__ul a {
+     color: gray;
+     font-size: 20px;
+ }
