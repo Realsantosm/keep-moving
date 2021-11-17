@@ -11,6 +11,24 @@ a {
     color: black;
 }
 
+.ordered__list-links li {
+    font-size: larger;
+}
+
+.ordered__list-links a{
+    background-color: white;
+    border-radius: .2rem;
+    /* padding: .5rem; */
+    
+}
+.ordered__list-links a:hover{
+    color: gray;
+    /* padding: .5rem; */
+    
+}
+
+
+
 footer {
     background-color: black;
     padding: .8rem;
