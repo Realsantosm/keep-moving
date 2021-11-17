@@ -12,13 +12,14 @@ a {
 }
 
 .ordered__list-links li {
-    font-size: larger;
+    font-size: 40px;
 }
 
 .ordered__list-links a{
     background-color: white;
     border-radius: .2rem;
     /* padding: .5rem; */
+    
     
 }
 .ordered__list-links a:hover{
