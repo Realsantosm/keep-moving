@@ -70,7 +70,23 @@
                 </code>
                 <p>Try out this method in different ways to console and use the above methods.</p>
             </li>
-            <li></li>
+            <li>
+                <H4>Check Answer</H4>
+                <p>Just try this code and check for the manipulated output.</p>
+                <code>
+                    var read = require('readline-sync'); <br>
+                    var score = 0;
+                    function play(question, answer){ <br>
+                        var userAnswer = read.question('Enter the question: '); <br>
+                        if(userAnswer === answer){<br>
+                            console.log("You are right."); <br>
+                            score = score + 1; <br>
+                        } else {<br>
+                            console.log("You are wrong..!!!"); <br>
+                        } <br>
+                    } <br>
+                </code>
+            </li>
             <li></li>
             <li></li>
             <li></li>
