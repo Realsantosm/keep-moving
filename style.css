@@ -66,6 +66,15 @@ a {
   /* padding: .5rem; */
 }
 
+i{
+  color: yellow;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer {
   background-color: black;
   padding: 0.8rem;
